@@ -37,6 +37,6 @@ for azs in all_raw_block:
     if begin_str !=7 :
         if azs_adr in moi_azs:
             #print(azs_name, azs_url)
-            print(azs_95_gaz,azs_name,azs_adr)
+            print(azs_95_gaz, '\t', azs_name,azs_adr)
             #print(azs.select('.org-body')[0].select('p')[1].text)
             #print(azs_95_gaz)
